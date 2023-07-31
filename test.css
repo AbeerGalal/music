@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.home{
+    width: 100%;
+    height: 100vh;
+    background-image: url(pexels-dariusz-grosa-736355.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.home .nav {
+    width: 100%;
+    height: 50px;
+    background-color: rgba(27, 32, 33, 0.5);
+    display: flex;
+    justify-content: space-between;
+}
+.home .nav ul{
+    list-style-type: none;
+    display: flex;
+    
+}
+.home .nav ul li{
+    display: inline;
+   margin-right: 25px;
+   padding-top: 10px;
+   font-size: 16;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.home .nav ul li a{
+    text-decoration: none;
+    color: aliceblue;
+
+}
+.home .caption img {
+    width: 250px;
+}
+.home .caption{
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 50px;
+    
+}
+.home .caption h1{
+    color: rgb(147, 198, 240);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30;
+}
+.home .caption button{
+    border-radius: 20px;
+    background-color: rgb(32, 28, 28);
+    font-size: large;
+    width: 15%;
+    margin: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:rgb(147, 198, 240) ;
+    height: 30px;
+}
+.footer img {
+    width: 3%;
+
+}
+.footer
+{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(65, 61, 61);
+}
+.footer p{
+    margin-top: 20px;
+    color: rgb(147, 198, 240);
+    font: bold;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    
+}
